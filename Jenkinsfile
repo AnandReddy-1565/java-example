@@ -1,5 +1,5 @@
 pipeline{
-	agent { label 'slave'}
+	agent { label 'tomcat'}
 	stages{
         stage('Build stage') {
             steps {
